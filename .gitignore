@@ -1,0 +1,11 @@
+/.npm
+.node_repl_history
+/node_modules
+package-lock.json
+
+# Vagrant and Ansible
+/.ansible
+/.vagrant
+/.cache
+.bash_history
+.sudo_as_admin_successful
