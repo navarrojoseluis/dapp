@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
 
       truffle.vm.network "private_network", ip: "10.20.0.2"
   
-      truffle.vm.synced_folder "./", "/home/vagrant"
+      truffle.vm.synced_folder "./truffledapp", "/home/vagrant"
   
       truffle.vm.provider "virtualbox" do |vb|
         vb.gui = false
